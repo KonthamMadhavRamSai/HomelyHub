@@ -63,17 +63,17 @@ HomelyHub/
 
 1. Clone the repository
    
-    ◉git clone https://github.com/your-username/HomelyHub.git
+    ●git clone https://github.com/your-username/HomelyHub.git
 
-    ◉cd HomelyHub
+    ●cd HomelyHub
 
 2. Backend Setup
    
-    ◉cd backend
+    ●cd backend
 
-    ◉npm install
+    ●npm install
 
-    ◉Create .env:
+    ●Create .env:
 
       MONGO_URL=your_mongodb_url
 
@@ -85,18 +85,67 @@ HomelyHub/
 
       IMAGEKIT_URL_ENDPOINT=
 
-    ◉Run backend:
+    ●Run backend:
 
       npm run dev
 
 3. Frontend Setup
    
-    ◉cd ../Frontend
+    ●cd ../Frontend
 
-    ◉npm install
+    ●npm install
 
-    ◉npm run dev
+    ●npm run dev
 
-    ◉Your frontend will start at:
+    Your frontend will start at:
 
       👉 http://localhost:5173/
+   
+🧩 Core Functionalities
+
+●Add new resort/lodge listings
+
+●Store booking details in MongoDB
+
+●List all stays in a clean card layout
+
+●Search resorts easily
+
+●Dark-themed, responsive UI
+
+●Smooth API communication with Axios
+
+●Reusable component architecture
+
+🎨 UI Highlights
+
+●Premium dark theme across all pages
+
+●Minimal card-based layout
+
+●Smooth transitions & clean spacing
+
+●Mobile-friendly responsive design
+
+●Professional styling with Ant Design
+
+📌 Future Enhancements
+
+●JWT-based authentication system
+
+●Razorpay payment integration
+
+●Advanced filtering (price, rating, location)
+
+●Admin dashboard panel
+
+●User reviews & rating system
+
+🤝 Contributing
+
+Contributions are always welcome!
+Feel free to fork the project and submit a pull request.
+
+📄 License
+
+This project is licensed under the MIT License.
