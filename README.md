@@ -3,9 +3,11 @@
 A modern full-stack accommodation booking platform built using the MERN stack.
 It offers a premium dark-themed interface, seamless booking management, and a responsive UI designed for an elegant user experience.
 
+
 🎯 Project Objective
 
 To build a clean, efficient, and visually modern booking system that supports adding, listing, and searching resorts/lodges using a MERN-based full-stack architecture with a polished dark UI.
+
 
 🛡️ Tech Stack
 
@@ -33,11 +35,13 @@ Tools
 ![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
+
 📸 Screenshots
 
 ![Homepage](https://raw.githubusercontent.com/YOUR_USERNAME/HomelyHub/main/screenshots/homepage.png)
 ![Listings](https://raw.githubusercontent.com/YOUR_USERNAME/HomelyHub/main/screenshots/listings.png)
 ![Add Resort](https://raw.githubusercontent.com/YOUR_USERNAME/HomelyHub/main/screenshots/add_resort.png)
+
 
 📁 Folder Structure
 
@@ -58,6 +62,7 @@ HomelyHub/
     ├── public/ 
     ├── package.json
     └── .env
+
 
 ⚙️ Installation & Setup
 
@@ -100,6 +105,7 @@ HomelyHub/
     Your frontend will start at:
 
       👉 http://localhost:5173/
+
    
 🧩 Core Functionalities
 
@@ -117,6 +123,7 @@ HomelyHub/
 
 ●Reusable component architecture
 
+
 🎨 UI Highlights
 
 ●Premium dark theme across all pages
@@ -128,6 +135,7 @@ HomelyHub/
 ●Mobile-friendly responsive design
 
 ●Professional styling with Ant Design
+
 
 📌 Future Enhancements
 
@@ -141,10 +149,12 @@ HomelyHub/
 
 ●User reviews & rating system
 
+
 🤝 Contributing
 
 Contributions are always welcome!
 Feel free to fork the project and submit a pull request.
+
 
 📄 License
 
