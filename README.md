@@ -54,11 +54,7 @@ HomelyHub/
 │
 
 └── Frontend/
-
     ├── src/
-    
-    ├── public/
-    
+    ├── public/ 
     ├── package.json
-    
     └── .env
