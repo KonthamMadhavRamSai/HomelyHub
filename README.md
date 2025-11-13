@@ -38,3 +38,27 @@ Tools
 ![Homepage](https://raw.githubusercontent.com/YOUR_USERNAME/HomelyHub/main/screenshots/homepage.png)
 ![Listings](https://raw.githubusercontent.com/YOUR_USERNAME/HomelyHub/main/screenshots/listings.png)
 ![Add Resort](https://raw.githubusercontent.com/YOUR_USERNAME/HomelyHub/main/screenshots/add_resort.png)
+
+📁 Folder Structure
+
+HomelyHub/
+
+│── backend/
+
+│   ├── src/
+
+│   ├── package.json
+
+│   └── .env
+
+│
+
+└── Frontend/
+
+    ├── src/
+    
+    ├── public/
+    
+    ├── package.json
+    
+    └── .env
