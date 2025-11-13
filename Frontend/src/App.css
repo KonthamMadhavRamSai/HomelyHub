@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@400;600&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", "Inter", sans-serif;
+  background-position: center;
+  color: var(--text-primary);
+  background: linear-gradient(180deg, var(--bg-1) 0%, var(--bg-2) 50%, var(--bg-3) 100%);
+  letter-spacing: 0.3px;
+}
+
+/* App-level headings */
+h1,h2,h3{font-family: "Poppins", "Inter", sans-serif;color:var(--text-primary);margin:0;font-weight:700;letter-spacing:0.5px}
+h1{font-size:2.25rem}
+h2{font-size:1.5rem}
+h3{font-size:1.15rem}
+
+h4,h5,h6{color:var(--text-primary);font-weight:500;letter-spacing:0.3px}
+
+p{color:var(--text-secondary);font-weight:400;line-height:1.6}
+
+/* small cards and forms base */
+.form-card{background:linear-gradient(180deg, rgba(18,18,18,0.9), rgba(24,24,24,0.95));border-radius:var(--radius);padding:1.25rem;box-shadow:var(--shadow-sm);border:var(--border);transition:all 0.22s ease}
+
+.text-muted{color:var(--muted)}
+a{color:var(--accent);text-decoration:none;transition:color 0.18s ease;font-weight:500}
+a:hover{color:var(--accent-hover);filter:drop-shadow(0 0 8px rgba(29,185,84,0.28))}
+
+/* smooth transitions */
+*{transition:all 0.2s ease}

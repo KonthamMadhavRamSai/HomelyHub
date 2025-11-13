@@ -1,0 +1,69 @@
+:root{
+  /* Spotify-like dark palette */
+  --bg-1: #121212; /* primary deep black */
+  --bg-2: #181818; /* secondary deep black */
+  --bg-3: #1E1E1E; /* card / section base */
+  --card: #1E1E1E; /* card background */
+  --card-hover: #232323; /* card hover pop */
+  --input: rgba(24,24,24,0.6); /* dark glass input */
+  --muted: #B3B3B3; /* muted gray text */
+  --accent: #1DB954; /* Spotify green */
+  --accent-hover: #1ED760; /* slightly brighter */
+  --accent-3: #00FF8C; /* highlight neon */
+  --primary: #FFFFFF; /* headings */
+  --shadow: 0 8px 40px rgba(0,0,0,0.7);
+  --shadow-md: 0 14px 50px rgba(0,0,0,0.6);
+  --shadow-sm: 0 6px 18px rgba(0,0,0,0.45);
+  --radius: 14px;
+  --radius-sm: 10px;
+  --glass: rgba(18,18,18,0.95);
+  --border: 1px solid rgba(255,255,255,0.06);
+  --text-primary: #FFFFFF;
+  --text-secondary: #B3B3B3;
+  --text-muted: rgba(179,179,179,0.7);
+  --footer-bg: #0F0F0F;
+  --scrollbar-bg: rgba(0,0,0,0.6);
+  --scrollbar-thumb: #1DB954;
+  --card-hover-glow: 0 0 20px rgba(29,185,84,0.2);
+}
+
+*{box-sizing:border-box}
+html,body,#root{height:100%;}
+body{
+  margin:0;padding:0;
+  font-family: "Poppins", "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(180deg, var(--bg-1) 0%, var(--bg-2) 100%);
+  color: var(--text-primary);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  line-height:1.6;
+  letter-spacing:0.3px;
+}
+
+/* scrollbar styling */
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-track{background:var(--scrollbar-bg)}
+::-webkit-scrollbar-thumb{background:var(--scrollbar-thumb);border-radius:6px;transition:all 0.12s ease;box-shadow: inset 0 0 0 3px rgba(0,0,0,0.2)}
+::-webkit-scrollbar-thumb:hover{background:var(--accent-hover)}
+
+/* layout helpers */
+.container{max-width:1200px;margin:0 auto;padding:0 1rem}
+.card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:1rem;border:var(--border);transition:all 0.28s ease}
+.card:hover{transform:translateY(-4px);box-shadow:var(--card-hover-glow);background:var(--card-hover);border-color:rgba(29,185,84,0.12)}
+.muted{color:var(--muted)}
+.btn-ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--text-primary);padding:0.65rem 1rem;border-radius:var(--radius-sm);transition:all 0.18s ease}
+.btn-ghost:hover{border-color:var(--accent);background:rgba(29,185,84,0.04);color:var(--accent)}
+.btn-primary{background:linear-gradient(90deg,var(--accent),var(--accent-hover));color:var(--text-primary);border:none;padding:0.75rem 1.3rem;border-radius:var(--radius-sm);box-shadow:0 0 12px rgba(29,185,84,0.35);cursor:pointer;font-weight:600;letter-spacing:0.5px;transition:all 0.16s ease}
+.btn-primary:hover{filter:brightness(1.1);box-shadow:0 0 20px rgba(29,185,84,0.5);transform:translateY(-2px)}
+.btn-primary:disabled{opacity:0.5;cursor:not-allowed}
+
+/* responsive images */
+img{max-width:100%;display:block;border-radius:var(--radius-sm);box-shadow:inset 0 0 8px rgba(0,0,0,0.35)}
+
+/* utility spacing */
+.spacer{height:1rem}
+
+/* small responsive tweaks */
+@media (max-width:900px){
+  .container{padding:0 0.75rem}
+}

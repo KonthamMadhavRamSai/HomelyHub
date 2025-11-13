@@ -1,0 +1,52 @@
+/* body {
+  background-image: url("../../public/assets/template.jpeg");
+  background-size: cover;
+  backdrop-filter: blur(5px);
+} */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+
+.wrapper form {
+  padding: 2.2rem 2.6rem;
+  padding-bottom: 3.5rem;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 6rem;
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, rgba(18,18,18,0.92), rgba(24,24,24,0.98));
+  border: var(--border);
+}
+
+.wrapper form h1 {
+  text-align: center;
+}
+
+.wrapper form .loginbutton {
+  background: linear-gradient(90deg,var(--accent),var(--accent-hover));
+  border-color: transparent;
+  color: var(--text-primary);
+  margin-top: 2rem;
+  box-shadow: 0 0 14px rgba(29,185,84,0.35);
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  transition: all 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.wrapper form .loginbutton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(29,185,84,0.5), 0 8px 20px rgba(0,0,0,0.45);
+  filter: brightness(1.08);
+}
+
+.wrapper form a {
+  font-size: 0.9rem;
+  color: grey;
+}
