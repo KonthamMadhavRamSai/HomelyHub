@@ -33,3 +33,8 @@ Tools
 ![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
+📸 Screenshots
+
+![Homepage](https://raw.githubusercontent.com/YOUR_USERNAME/HomelyHub/main/screenshots/homepage.png)
+![Listings](https://raw.githubusercontent.com/YOUR_USERNAME/HomelyHub/main/screenshots/listings.png)
+![Add Resort](https://raw.githubusercontent.com/YOUR_USERNAME/HomelyHub/main/screenshots/add_resort.png)
