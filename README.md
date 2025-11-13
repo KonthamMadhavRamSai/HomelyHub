@@ -75,28 +75,28 @@ HomelyHub/
 
     ◉Create .env:
 
-     MONGO_URL=your_mongodb_url
+      MONGO_URL=your_mongodb_url
 
-     JWT_SECRET=your_secret
+      JWT_SECRET=your_secret
 
-     IMAGEKIT_PUBLIC_KEY=
+      IMAGEKIT_PUBLIC_KEY=
 
-     IMAGEKIT_PRIVATE_KEY=
+      IMAGEKIT_PRIVATE_KEY=
 
-     IMAGEKIT_URL_ENDPOINT=
+      IMAGEKIT_URL_ENDPOINT=
 
     ◉Run backend:
 
-     npm run dev
+      npm run dev
 
 3. Frontend Setup
    
- ◉cd ../Frontend
+    ◉cd ../Frontend
 
- ◉npm install
+    ◉npm install
 
- ◉npm run dev
+    ◉npm run dev
 
- ◉Your frontend will start at:
+    ◉Your frontend will start at:
 
-  👉 http://localhost:5173/
+      👉 http://localhost:5173/
