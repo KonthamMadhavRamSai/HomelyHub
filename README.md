@@ -38,9 +38,9 @@ Tools
 
 📸 Screenshots
 
-![Homepage](https://raw.githubusercontent.com/YOUR_USERNAME/HomelyHub/main/screenshots/homepage.png)
-![Listings](https://raw.githubusercontent.com/YOUR_USERNAME/HomelyHub/main/screenshots/listings.png)
-![Add Resort](https://raw.githubusercontent.com/YOUR_USERNAME/HomelyHub/main/screenshots/add_resort.png)
+![Homepage](https://raw.githubusercontent.com/KonthamMadhavRamSai/HomelyHub/main/screenshots/Home.png)
+![Listings](https://raw.githubusercontent.com/KonthamMadhavRamSai/HomelyHub/main/screenshots/Resort.png)
+![Add Resort](https://raw.githubusercontent.com/KonthamMadhavRamSai/HomelyHub/main/screenshots/Accomodation.png)
 
 
 📁 Folder Structure
