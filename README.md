@@ -58,3 +58,48 @@ HomelyHub/
     ├── public/ 
     ├── package.json
     └── .env
+
+⚙️ Installation & Setup
+
+1. Clone the repository
+   
+git clone https://github.com/your-username/HomelyHub.git
+
+cd HomelyHub
+
+2. Backend Setup
+   
+cd backend
+
+npm install
+
+
+Create .env:
+
+MONGO_URL=your_mongodb_url
+
+JWT_SECRET=your_secret
+
+IMAGEKIT_PUBLIC_KEY=
+
+IMAGEKIT_PRIVATE_KEY=
+
+IMAGEKIT_URL_ENDPOINT=
+
+
+Run backend:
+
+npm run dev
+
+3. Frontend Setup
+   
+cd ../Frontend
+
+npm install
+
+npm run dev
+
+
+Your frontend will start at:
+
+👉 http://localhost:5173/
